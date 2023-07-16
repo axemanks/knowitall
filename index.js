@@ -68,7 +68,6 @@ document.addEventListener('submit', (e) => {
 })
 
 // fetchReply
-fetchReply()
 function fetchReply() {
     // callback - snapshot of data as it exists in the database
     get(conversationInDb).then(async (snapshot) => {
