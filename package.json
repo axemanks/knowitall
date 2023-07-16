@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "dependencies": {
+    "firebase": "^10.0.0",
+    "openai": "3.2.1"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  },
+  "scripts": {
+    "start": "vite -p 3050",
+    "dev": "vite -p 3050",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
